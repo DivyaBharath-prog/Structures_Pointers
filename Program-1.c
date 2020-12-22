@@ -19,4 +19,5 @@ int main()
     // adding inches
 
     printf("Sum of feet = %d",sum.feet);
+    return 0;
 }
