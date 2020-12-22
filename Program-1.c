@@ -11,7 +11,7 @@ struct Distance
 
 int main()
 {
-      printf("Enter feet for 1st and 2nd distance: ");
+    printf("Enter feet  value for 1st and 2nd distance: ");
     scanf("%d%d", &dist1.feet, &dist2.feet);
     // adding feet
     sum.feet = dist1.feet + dist2.feet;
