@@ -1,4 +1,4 @@
-//C Program to Store Information of Students Using Structure
+//C Program to Store Information of Students and display marks Using Structure
 
 
 
