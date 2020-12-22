@@ -8,16 +8,12 @@
 #include<stdio.h>  
 struct student  
 {  
-    char name[20];  
-   int id;  
-    float marks;  
+    int marks;  
 };  
 void main()  
 {  
-    struct student s1,s2,s3;  
-    int dummy;  
-    printf("Enter the  marks of student 1,2 and 3 ");  
-    scanf("%d”, "%d”, "%d”, &s1.marks, ,&s2.marks,&s3.marks);    
-    printf("Printing the details....\n");  
-    printf("%d %d  %d  ", s1.marks,s2.marks,s3.marks);  
-   }  
+  struct student s1,s2,s3;  
+  printf("Enter the  marks of student 1,2 and 3 ");  
+  scanf("%d" "%d" "%d", &s1.marks,&s2.marks,&s3.marks);
+  printf("%d %d  %d", s1.marks,s2.marks,s3.marks);  
+}  
